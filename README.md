@@ -11,7 +11,7 @@ The `_printf` function produces formatted output similar to the standard `printf
 - `%%`: Print a literal `%` character.
 - `%d` or `%i`: Print a signed integer.
 
-## Contributors
+## Collaborators
 
 - [Ayoub Belkcem](https://github.com/ay-bkm)
 - [Hamza El-Beidouri](https://github.com/Hamza-El-Beidouri)
