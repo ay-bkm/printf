@@ -6,7 +6,6 @@
  */
 int print_string(va_list args)
 {
-	va_list args;
 	int len;
 	char *s;
 
