@@ -1,6 +1,5 @@
 #include "main.h"
-#include <stdarg.h>
-#include <unistd.h>
+
 /**
  * _printf - printf clone
  * @format: pointer to character string
