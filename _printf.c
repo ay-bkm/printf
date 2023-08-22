@@ -29,7 +29,7 @@ int _printf(const char *format, ...)
 			else if (*format == '%')
 				len += print_percent();
 			else if (*format == 'd' || *format == 'i')
-				len += print_i(args);
+				len += print_int(args);
 			else
 			{
 				_putchar('%');
