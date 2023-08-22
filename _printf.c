@@ -12,10 +12,8 @@ int _printf(const char *format, ...)
 	va_list args;
 
 	len = 0;
-
 	if (!format)
 		return (-1);
-
 	va_start(args, format);
 	while (*format)
 	{
@@ -30,6 +28,8 @@ int _printf(const char *format, ...)
 				len += print_string(args);
 			else if (*format == '%')
 				len += print_percent();
+			else if (*format == 'd' || *format == 'i')
+				len += print_i(args);
 			else
 			{
 				_putchar('%');
