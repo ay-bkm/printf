@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_int - prints integers with different bases
  * @args: argument list
@@ -11,7 +10,14 @@ int print_int(va_list args)
 	char buffer[11];
 
 	n = va_arg(args, int);
-	if (n < 0)
+	if (n == INT_MIN)
+	{
+		/* Handle the case where n is INT_MIN */
+		len = _putchar('-');
+		len += _putchar('2');
+		n = 147483648;
+	}
+	else if (n < 0)
 	{
 		_putchar('-');
 		len = 1;
