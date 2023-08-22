@@ -1,7 +1,7 @@
 # Custom printf Function
 
-## Introduction
-This project involves implementing a custom version of the `printf` function in the C programming language. The goal is to create a function that produces output according to a given format.
+# Introduction
+This (shablam)  project involves implementing a custom version of the `printf` function in the C programming language. The goal is to create a function that produces output according to a given format.
 
 ## Table of Contents
 - [Project Details](#project-details)
