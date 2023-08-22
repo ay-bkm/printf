@@ -34,7 +34,7 @@ In this task, we will enhance our custom `printf` function to handle numeric val
 To use the custom `printf` function, you need to include the appropriate header file and call the function with the desired format string and arguments. ...
 
 ## Contributors
-- [Julien Barbier](https://github.com/julienbarbier42) (Co-founder & CEO)
+- [Julien Barbier](https://github.com/jbarbier) (Co-founder & CEO)
 - [Hamza El Beidouri](https://github.com/Hamza-El-Beidouri) (Team Member)
 - [Ayoub Belkacem](https://github.com/ay-bkm) (Team Member)
 
