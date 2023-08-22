@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_i - prints integers with different bases
+ * print_int - prints integers with different bases
  * @args: argument list
  * Return: The length of printed integers
  */
-int print_i(va_list args)
+int print_int(va_list args)
 {
-	int n, len;
+	int n, len, i;
 	char buffer[11];
 
 	n = va_arg(args, int);
@@ -26,6 +26,8 @@ int print_i(va_list args)
 		return (1);
 	}
 
-	len += itoa(n, buffer, 10);
+	sprintf(buffer, "%d", n);
+	for (i = 0; buffer[i]; i++)
+		len += _putchar(buffer[i]);
 	return (len);
 }
